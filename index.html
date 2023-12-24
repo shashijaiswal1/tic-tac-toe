@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laptop.css">
+    <script src="index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div id="main">
+        <h1>TIC-TAC-TOE</h1>
+        <p id="instruction">First player starts as <b>Player X</b> and second player starts as <b>player 0</b></p>
+        <div id="ui">
+            <div class="row">
+                <input type="text" id="b1" class="cell" onclick="set_value3(); who_win();" readonly>
+                <input type="text" id="b2" class="cell" onclick="set_value4(); who_win();" readonly>
+                <input type="text" id="b3" class="cell" onclick="set_value5(); who_win();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b4" class="cell" onclick="set_value6(); who_win();" readonly>
+                <input type="text" id="b5" class="cell" onclick="set_value7(); who_win();" readonly>
+                <input type="text" id="b6" class="cell" onclick="set_value8(); who_win();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b7" class="cell" onclick="set_value9(); who_win();" readonly>
+                <input type="text" id="b8" class="cell" onclick="set_value10(); who_win();" readonly>
+                <input type="text" id="b9" class="cell" onclick="set_value11(); who_win();" readonly>
+            </div>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+        <p id="print"></p>
+    </div>
+</div>
+</body>
+</html>
